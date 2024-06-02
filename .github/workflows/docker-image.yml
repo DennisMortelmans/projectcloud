@@ -22,6 +22,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-docker build -t s140035/cloudsysteenpart2:latest .
+              docker build -t s140035/cloudsysteenpart2:latest .
 
-docker push s140035/cloudsysteenpart2:latest
+              docker push s140035/cloudsysteenpart2:latest
